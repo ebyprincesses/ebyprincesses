@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koshechka232 — моё био</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(145deg, #0b0b1a 0%, #1a1a2e 100%);
+            font-family: 'Segoe UI', 'Poppins', system-ui, -apple-system, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        .card {
+            max-width: 550px;
+            width: 100%;
+            background: rgba(20, 20, 40, 0.75);
+            backdrop-filter: blur(10px);
+            border-radius: 48px;
+            padding: 32px 28px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.01);
+            border-color: rgba(255, 100, 150, 0.4);
+        }
+
+        .avatar {
+            font-size: 72px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            background: linear-gradient(135deg, #fff, #ff99cc);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -0.5px;
+        }
+
+        .tag {
+            text-align: center;
+            color: #aaa;
+            font-size: 16px;
+            margin-top: 6px;
+            margin-bottom: 28px;
+            word-break: break-word;
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 28px;
+            padding: 16px 20px;
+            margin-bottom: 18px;
+            border-left: 4px solid #ff66aa;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ff99cc;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .info-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 16px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #ccccff;
+            min-width: 85px;
+        }
+
+        .info-value {
+            color: #f0f0f0;
+            word-break: break-word;
+        }
+
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 6px;
+        }
+
+        .badge {
+            background: #2a2a3a;
+            border-radius: 40px;
+            padding: 6px 16px;
+            font-size: 14px;
+            color: #ffccdd;
+        }
+
+        .hobby-text {
+            color: #f0f0f0;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+
+        .quote {
+            background: rgba(255, 100, 150, 0.1);
+            border-radius: 24px;
+            padding: 18px 20px;
+            font-style: italic;
+            color: #ffccdd;
+            text-align: center;
+            line-height: 1.4;
+            border: 1px solid rgba(255, 100, 150, 0.3);
+        }
+
+        hr {
+            margin: 20px 0 12px;
+            border: none;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .telegram-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(95deg, #1f8a4c, #1488cc);
+            padding: 12px 24px;
+            border-radius: 60px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            margin-top: 8px;
+            transition: 0.2s;
+            font-size: 16px;
+        }
+
+        .telegram-btn:hover {
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(0, 200, 150, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 13px;
+            color: #777;
+            margin-top: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="avatar">🎮🐱</div>
+    <h1>koshechka232</h1>
+    <div class="tag">@koshechka232</div>
+
+    <div class="section">
+        <div class="section-title">📋 <span>Основное</span></div>
+        <div class="info-grid">
+            <div class="info-row"><span class="info-label">🎂 Возраст:</span><span class="info-value">16</span></div>
+            <div class="info-row"><span class="info-label">🌍 Страна:</span><span class="info-value">Россия</span></div>
+            <div class="info-row"><span class="info-label">🏙️ Город:</span><span class="info-value">Владимир</span></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🕹️ <span>Хобби</span></div>
+        <div class="hobby-text">
+            Моё хобби — это отдых за ПК в наушниках. Я обожаю сидеть за компьютером, слушать любимую музыку и листать TikTok. Это мой способ перезагрузиться, отключиться от проблем и просто кайфовать. А ещё я очень люблю капибар — они такие же спокойные и расслабленные, как и мой идеальный вечер за монитором.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🎸 <span>Любимые жанры музыки</span></div>
+        <div class="badge-list">
+            <span class="badge">nu metal</span>
+            <span class="badge">pop-punk</span>
+            <span class="badge">punk</span>
+            <span class="badge">rock</span>
+            <span class="badge">metal</span>
+            <span class="badge">emo rock</span>
+            <span class="badge">alternative</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🎮 <span>Любимые игры</span></div>
+        <div class="badge-list">
+            <span class="badge">Resident Evil 2</span>
+            <span class="badge">Resident Evil 4</span>
+            <span class="badge">Resident Evil Requiem</span>
+            <span class="badge">R.E.P.O.</span>
+            <span class="badge">PEAK</span>
+            <span class="badge">Counter-Strike 2</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🎬 <span>Любимые фильмы</span></div>
+        <div class="badge-list">
+            <span class="badge">Астрал</span>
+            <span class="badge">Оно</span>
+            <span class="badge">Оно 2</span>
+            <span class="badge">Заклятие</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🇯🇵 <span>Любимые аниме</span></div>
+        <div class="badge-list">
+            <span class="badge">Тетрадь смерти</span>
+            <span class="badge">Клинок рассекающий демонов</span>
+            <span class="badge">Блю Лок</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📺 <span>Любимые сериалы</span></div>
+        <div class="badge-list">
+            <span class="badge">Во все тяжкие</span>
+            <span class="badge">Лучше звоните Солу</span>
+            <span class="badge">Декстер</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📱 <span>Контакты</span></div>
+        <div class="info-row"><span class="info-label">📩 Telegram:</span>
+            <a href="https://t.me/koshechka232" target="_blank" class="telegram-btn">💬 @koshechka232</a>
+        </div>
+    </div>
+
+    <div class="quote">
+        ❝ Закрыть дверь в прошлое нужно не потому, что оно было плохим, а потому что за ней тебя уже никто не ждёт ❞
+    </div>
+
+    <hr>
+    <footer>
+        🐾 просто моё место в интернете 🐾
+    </footer>
+</div>
+</body>
+</html>
